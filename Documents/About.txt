@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | OrangeBox</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #fff8f1;
+      color: #333;
+    }
+
+    .navbar {
+      background-color: #fff;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    }
+
+    .navbar-brand {
+      color: #ff6600;
+      font-weight: 600;
+    }
+
+    .hero {
+      background: url('	https://images.pexels.com/photos/5852332/pexels-photo-5852332.jpeg?auto=compress&cs=tinysrgb&w=600') center/cover no-repeat;
+      height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      color: white;
+      position: relative;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.5);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 1.25rem;
+    }
+
+    .section-title {
+      color: #ff6600;
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .highlight {
+      color: #ff6600;
+      font-weight: 600;
+    }
+
+    .cta-btn {
+      background-color: #ff6600;
+      border: none;
+    }
+
+    .cta-btn:hover {
+      background-color: #e25500;
+    }
+
+    footer {
+      background-color: #fff;
+      padding: 15px 0;
+      text-align: center;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">OrangeBox</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#mission">Mission</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">What We Do</a></li>
+          <li class="nav-item"><a class="nav-link" href="#difference">Why Us</a></li>
+          <li class="nav-item"><a class="nav-link" href="#team">Team</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero d-flex align-items-center">
+    <div class="hero-content">
+      <h1>About OrangeBox</h1>
+      <p>Creative marketing partners for bold brands.</p>
+    </div>
+  </section>
+
+  <!-- Content Sections -->
+  <div class="container my-5">
+
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10">
+        <!-- Mission -->
+        <div id="mission" class="mb-5">
+          <h2 class="section-title">Our Mission</h2>
+          <p><span class="highlight">We aim to redefine how people enjoy fresh, healthy, and sustainably sourced fruits. </span></p>
+          <p>We are committed to delivering expertly curated fruit boxes that inspire healthier lifestyles, support local growers, and reduce food waste. With every box, we aim to bring joy, convenience, and nourishment to our customers' lives—one delicious fruit at a time.</p>
+        </div>
+
+        <!-- What We Do -->
+        <div id="services" class="mb-5">
+          <h2 class="section-title">What We Do</h2>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item bg-transparent">
+              <span class="highlight">We curate and deliver premium fruit boxes:</span> filled with hand-picked, fresh, and seasonal fruits from trusted growers.
+            </li>
+            <li class="list-group-item bg-transparent">
+              <span class="highlight">We simplify healthy eating:</span> by bringing nature's best directly to your doorstep with unmatched convenience.
+            </li>
+            <li class="list-group-item bg-transparent">
+              <span class="highlight">We support sustainable farming practices:</span> by partnering with local growers and promoting environmentally conscious choices.
+            </li>
+
+          </ul>
+        </div>
+
+        <!-- How We're Different -->
+        <div id="difference" class="mb-5">
+          <h2 class="section-title">How We're Different</h2>
+          <div class="accordion" id="differenceAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">
+                  <strong>Food Waste Reduction</strong>
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show">
+                <div class="accordion-body">
+                  By perfectly portioning our boxes to suit your lifestyle while making the most of each harvest.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">
+                  <strong>Quality and Flavor</strong>
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  We aim to ensure that every bite is as delightful as it is nutritious by sourcing from local areas.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">
+                  <strong>Fair Trade</strong>
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse">
+                <div class="accordion-body">
+                  We prioritize partnerships with fair trade certified growers, ensuring that farmers are paid fairly and work in safe, sustainable conditions.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Meet the Team -->
+        <div id="team" class="mb-5">
+          <h2 class="section-title">Meet OrangeBox</h2>
+          
+                <p>Experience the joy of nature's finest fruits with <span class="highlight">Orange Box</span>. Each box is thoughtfully curated to bring vibrant flavors, unmatched freshness, and ethical sourcing straight to your doorstep. By choosing us, you're not only making a healthier choice for yourself but also supporting sustainable farming and fair trade practices. Join us in celebrating the goodness of fresh fruit—delivered with care, purpose, and a commitment to making a positive impact. Your journey to a more wholesome lifestyle starts here!</p>
+        </div>
+
+        <!-- Call to Action -->
+        <div id="contact" class="text-center mb-5">
+          <h2 class="section-title">Join Our Meal Kit Club</h2>
+          <a href="mailto:hello@orangebox.com" class="btn cta-btn btn-lg">Sign Up</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    OrangeBox © 2025 | Creative Marketing Partners | All Rights Reserved
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

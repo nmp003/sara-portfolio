@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+<!--Nav-->
+
+
+<nav class="navbar navbar-expand-lg navbar-light bg-white px-3 py-1" style="height: 60px;">
+    <a class="navbar-brand mx-auto " href="#">
+        <img src="logo.svg" alt="Logo" class="logo">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Delivery</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Join our meal kit club!</a>
+            </li>
+            
+        </ul>
+
+        <div class="d-flex ms-auto">
+            <a href="#"><i class="bi bi-cart me-4"></i></a>
+            <a class="btn btn-outline-primary btn-sm me-2" href="#">Login</a>
+            <a class="btn btn-primary btn-sm" href="#">Sign Up</a>
+        </div>
+
+    </div>
+</nav>
+
+
+<section class="background-section img-fluid">
+        <div class="overlay ">
+           
+        </div>
+
+        <div class="d-flex align-items-center h-100 px-4">
+            
+                <h2 class="text-start text-light dosis-first-heading lh-lg fs-1" style="font-family: 'Dosis', serif;
+                    font-optical-sizing: auto;
+                    font-weight: 700;
+                    font-style: normal;
+                    z-index: 3;">Fruit Bowls customized to your liking. <br>
+                Quality ingredients & sourcing. <br>
+                Delivered to your home or office.
+                </h2>
+                
+        </div>
+</section>
+
+<!--Promotion Initial-->
+
+<section class="bg-light text-center text-sm-start">
+
+    <div class="container">
+        <div class="d-flex flex-column align-items-md-center mt-5">
+            <h2 class="lead text-md-center p-4 display-6 fw-bold text-primary">CHOOSE FROM 50+ ingredients</h2>
+            <h5 class="text-md-center p-3 ">Take a look at our <a href="#">reviews</a><br><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i><i class="bi bi-star-fill text-warning"></i></h5>
+        </div>
+    </div>
+    
+
+</section>
+
+
+
+
+
+<!--cards 1-->
+
+<section class="bg-white text-dark p-5 d-none d-md-block">
+
+    <div class="d-flex flex-wrap justify-content-between">
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="plain.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Plain</h5>
+            <p class="card-text text-secondary fw-normal fs-6">Just a regular fruit bowl with ingredients of your choosing.</p>
+            
+          </div>
+        </div>
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="granola-fruit.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">With Granola/Parfait</h5>
+            <p class="card-text text-secondary fw-normal fs-6">Add grain, granola, yougurt to your bowl!</p>
+            
+          </div>
+        </div>
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="vegetable-based.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Vegetable-based</h5>
+            <p class="card-text text-secondary fw-normal fs-6">Increase anti-oxidants with vegetables.</p>
+            
+          </div>
+        </div>
+
+        <div class="card border-0" style="width: 250px; height: 250px;">
+            <img class="card-img-top" src="acai.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Acai & other blended base</h5>
+              <p class="card-text text-secondary fw-normal fs-6">Power up with an acai bowl!</p>
+              
+            </div>
+          </div>
+      </div>
+       
+
+</section>
+
+<section class="bg-white text-dark p-5 d-none d-md-block">
+
+    <div class="d-flex flex-wrap justify-content-between">
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="juice.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Juice</h5>
+            <p class="card-text text-secondary fw-normal fs-6">Delightful juice selection, featuring a variety of flavors to suit every palate!</p>
+            
+          </div>
+        </div>
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="smoothie.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Smoothies</h5>
+            <p class="card-text text-secondary fw-normal fs-6"> Packed with the goodness of fresh fruits and wholesome ingredients, customize your power drink.</p>
+            
+          </div>
+        </div>
+        <div class="card border-0" style="width: 250px; height: 250px;">
+          <img class="card-img-top" src="Ice-cream.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-center">Ice Cream</h5>
+            <p class="card-text text-secondary fw-normal fs-6">Vibrant fruit-flavored ice cream selections, where every scoop is 
+                a burst of fruity delight: from tangy to mellow.</p>
+            
+          </div>
+        </div>
+
+        <div class="card border-0" style="width: 250px; height: 250px;">
+            <img class="card-img-top" src="sorbet.jpg" alt="Card image cap" style="width: 250px; height: 200px; object-fit: cover;">
+            <div class="card-body">
+              <h5 class="card-title text-center">Sorbet</h5>
+              <p class="card-text text-secondary fw-normal fs-6">Each scoop is a burst of fruity freshness. Sorbets made with real fruit
+                to offer a light and refreshing treat</p>
+              
+            </div>
+          </div>
+      </div>
+       
+
+</section>
+
+
+<!-- Carousel -->
+<div id="demo" class="carousel slide d-block d-md-none" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="6"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="7"></button>
+        
+    </div>
+    
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="plain.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+                <h3>Plain</h3>
+                <p>Just a regular fruit bowl with ingredients of your choosing.</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="granola-fruit.jpg" alt="Chicago" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+                <h3>With Granola/Parfait</h3>
+                <p>Add grain, granola, yougurt to your bowl!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="vegetable-based.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+                <h3>Vegetable-based</h3>
+                <p>Increase anti-oxidants with vegetables.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="acai.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption">
+                <h3>Acai and other blended base</h3>
+                <p>Power up with an acai bowl!</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="juice.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption pb-2">
+                <h3>Juice</h3>
+                <p>Delightful juice selection, featuring a variety of flavors to suit every palate!</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="smoothie.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption pb-2">
+                <h3>Smoothie</h3>
+                <p>Packed with the goodness of fresh fruits and wholesome ingredients, customize your power drink.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="Ice-cream.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption pb-2">
+                <h3>Ice cream</h3>
+                <p>Vibrant fruit-flavored ice cream selections, where every scoop is 
+                    a burst of fruity delight: from tangy to mellow.</p>
+            </div>
+        </div>
+
+        <div class="carousel-item">
+            <img src="sorbet.jpg" alt="New York" class="d-block" style="width:100%">
+            <div class="overlay"></div>
+            <div class="carousel-caption pb-2">
+                <h3>Sorbet</h3>
+                <p>Each scoop is a burst of fruity freshness. Sorbets made with real fruit
+                    to offer a light and refreshing treat</p>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+</div>
+
+<!--BROWSE MENU CALL TO ACTION-->
+
+<section class="bg-light text-center p-5 mt-lg-5">
+
+    <div class="container">
+
+            <div class="btn btn-outline-primary btn-lg">Check out our menu</div>
+
+    </div>
+
+</section>
+
+
+<!--Meal kit description-->
+
+<section class="text-light  text-center text-sm-start" style="background-color: #cb500c; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);">
+
+    <div class="container">
+        <div class="d-flex flex-column align-items-md-center mt-2">
+            <h2 class="lead text-md-center p-4 display-6 fw-bold text-primary text-light">Customize weekly fruit-based kits</h2>
+            <h5 class="text-md-center p-3 ">See why hundreds of our customers <a href="#" style="color: white;">choose us!!</a><br></h5>
+        </div>
+    </div>
+
+</section>
+
+
+<section class="img-fluid second-background">
+
+    <div class="container mg-fluid d-flex justify-content-center align-items-center h-100">
+
+        <div class="bg-white text-center d-flex justify-content-center align-items-center px-4" 
+        style="height: 250px; width: 500px; border-radius: 5px;">
+            <div class="d-flex flex-column align-items-center gap-1">
+            <h3 class="text-md-center display-6 fw-bold text-primary text-bold" style="
+                font-family: 'Playfair Display', serif;
+                font-optical-sizing: auto;
+                font-weight: 100;
+                font-style: normal;">Get started</h3>
+            <h5 class="text-md-center">for as little as $10.99 a month</h5><br>
+            <div class="btn btn-outline-primary btn-lg">See Plans</div>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</section>
+
+<!--Social Media, Search, Recipes-->
+
+<section class="bg-light p-5">
+
+    <div class="container">
+        <div class="row ">
+            <div class="col-12 col-sm-4">
+                <h5 class="column-1-fix">Follow us on social media</h5>
+                <div style="padding-left: 12px;">
+                    <a href="" class="h3 me-4"><i class="bi bi-facebook"></i></a>
+                    <a href="" class="h3 me-4"><i class="bi bi-twitter"></i></a>  
+                    <a href="" class="h3 me-4"><i class="bi bi-instagram "></i></a> 
+                    <a href="" class="h3 me-4"><i class="bi bi-youtube"></i></a>
+                </div> 
+            </div>
+            <div class="col-12 col-sm-4 text-center">
+                <h5>Discover more!</h5>
+                <h5>Sign up for our newsletter</h5>
+                
+                <form action="">
+                    <div class="p-1 text-muted">
+                        
+                        <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                    </div>
+
+
+                </form>
+
+                <p class="text-muted">Sign for recipes, offers, promotions, tips and more!</p>
+            </div>
+            <div class="col-sm-4 d-flex align-items-center d-none d-sm-block">
+                <div class="d-flex align-items-center" style="margin-left: 100px; margin-bottom: 50px ;">
+                    <img src="orange-reading.png" alt="Orange reading" style="height: 100px; width: 100px; margin-right: 15px;">
+                    <h6>Check out our blog. Uncover the incredible benefits of including more fruits and vegetables into your daily routine</h6>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white pt-5 pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3 col-lg-4 col-xl-3 mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">About</h6>
+          <p class="">
+            Orange Box seeks to promote health living through the power of fruits. Our ingredients are mindfully sourced from local fruit
+            farmers around the world. We believe in sustainability, fair trade, and environmental protection. A wholesome body begins with
+            a well taken care of environment
+          </p>
+        </div>
+        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Products</h6>
+          <p><a href="#" class="text-white">Fruit Kits</a></p>
+          <p><a href="#" class="text-white">Juice</a></p>
+          <p><a href="#" class="text-white">Smoothies</a></p>
+          <p><a href="#" class="text-white">Ice Cream</a></p>
+          <p><a href="#" class="text-white">Sorbet</a></p>
+        </div>
+        <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Useful links</h6>
+          <p><a href="#" class="text-white">Your Account</a></p>
+          <p><a href="#" class="text-white">Become an Affiliate</a></p>
+          <p><a href="#" class="text-white">Shipping Rates</a></p>
+          <p><a href="#" class="text-white">Help</a></p>
+        </div>
+        <div class="col-md-4 col-lg-3 col-xl-3 mb-md-0 mb-4">
+          <h6 class="text-uppercase font-weight-bold mb-4">Contact</h6>
+          <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+          <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
+          <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright text-center py-3">
+      © 2024 Copyright:
+      <a href="#" class="text-white"> Orange Box</a>
+    </div>
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
+    crossorigin="anonymous"></script>
+
+</body>
+</html>
+
+
+

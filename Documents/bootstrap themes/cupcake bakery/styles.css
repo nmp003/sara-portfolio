@@ -1,0 +1,1451 @@
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+  margin: 0;
+  background-color: #fff;
+}
+
+/**
+ * Render the `main` element consistently in IE.
+ */
+
+main {
+  display: block;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+   ========================================================================== */
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+
+hr {
+  box-sizing: content-box; /* 1 */
+  height: 0; /* 1 */
+  overflow: visible; /* 2 */
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+pre {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/* Text-level semantics
+   ========================================================================== */
+
+/**
+ * Remove the gray background on active links in IE 10.
+ */
+
+a {
+  background-color: transparent;
+}
+
+/**
+ * 1. Remove the bottom border in Chrome 57-
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+
+abbr[title] {
+  border-bottom: none; /* 1 */
+  text-decoration: underline; /* 2 */
+  text-decoration: underline dotted; /* 2 */
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace; /* 1 */
+  font-size: 1em; /* 2 */
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+
+/**
+ * Remove the border on images inside links in IE 10.
+ */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+   ========================================================================== */
+
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit; /* 1 */
+  font-size: 100%; /* 1 */
+  line-height: 1.15; /* 1 */
+  margin: 0; /* 2 */
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+
+button,
+input { /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+
+button,
+select { /* 1 */
+  text-transform: none;
+}
+
+/**
+ * Correct the inability to style clickable types in iOS and Safari.
+ */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Correct the padding in Firefox.
+ */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+
+legend {
+  box-sizing: border-box; /* 1 */
+  color: inherit; /* 2 */
+  display: table; /* 1 */
+  max-width: 100%; /* 1 */
+  padding: 0; /* 3 */
+  white-space: normal; /* 1 */
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Remove the default vertical scrollbar in IE 10+.
+ */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10.
+ * 2. Remove the padding in IE 10.
+ */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box; /* 1 */
+  padding: 0; /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+
+[type="search"] {
+  -webkit-appearance: textfield; /* 1 */
+  outline-offset: -2px; /* 2 */
+}
+
+/**
+ * Remove the inner padding in Chrome and Safari on macOS.
+ */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button; /* 1 */
+  font: inherit; /* 2 */
+}
+
+/* Interactive
+   ========================================================================== */
+
+/*
+ * Add the correct display in Edge, IE 10+, and Firefox.
+ */
+
+details {
+  display: block;
+}
+
+/*
+ * Add the correct display in all browsers.
+ */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+   ========================================================================== */
+
+/**
+ * Add the correct display in IE 10+.
+ */
+
+template {
+  display: none;
+}
+
+/**
+ * Add the correct display in IE 10.
+ */
+
+[hidden] {
+  display: none;
+}
+
+.component {
+  color: var(--bs-gray-800);
+  background-color: var(--bs-gray-100);
+  border: 1px solid var(--bs-gray-200);
+  border-radius: .25rem;
+}
+
+.component-header {
+  color: var(--bs-purple);
+}
+
+
+
+
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .fa-bars,
+.navbar-scroll .navbar-brand {
+  color: #4f4f4f;
+}
+
+#product {
+  scroll-margin-top: 80px; /* height of your sticky header */
+}
+
+.navbar-scroll .nav-link:hover {
+  color: #ff69b4;
+}
+
+.navbar {
+    transition: opacity 0.3s ease-in-out;
+}
+
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .fa-bars,
+.navbar-scrolled .navar-brand {
+  color: #4f4f4f;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #fff;
+}
+
+.navbar-nav {
+  margin: 0;
+  padding: 0;
+
+}
+
+ .navbar-brand img {
+    padding: 0;
+    margin-left: 0;
+  }
+
+
+.navbar-nav .nav-item {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-nav .nav-link {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+
+/* Navlink styling */
+
+.nav-link {
+  font-family: "Chewy", system-ui;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 22px;
+}
+
+
+
+/* CSS */
+.order-button {
+  background: #bae8d4;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: auto;
+  display: inline-block;
+  line-height: 16px;
+  min-height: 40px;
+  outline: 0;
+  padding: 12px 14px;
+  text-align: center;
+  text-rendering: geometricprecision;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+}
+
+.order-button:hover,
+.order-button:active {
+  background-color: initial;
+  background-position: 0 0;
+  color: #ff69b4;
+}
+
+
+
+
+/* navbar on mobile */
+
+/* Mobile-first: simple full-width menu */
+@media (max-width: 767.98px) {
+  /* Styles for mobile navbar */
+
+  .navbar {
+    background-color: #f8f9fa;
+    
+  }
+
+
+  .navbar img {
+
+    height: 45px;
+  }
+
+   .navbar button {
+
+    height: 20px;
+    border-style: none;
+    padding: 0;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    align-items: flex-start;
+    padding-bottom: 0;
+  }
+
+  .navbar-nav .nav-link {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid #ddd;
+  }
+
+  .navbar-brand img {
+    
+    max-height: 50px;
+
+  }
+
+  /* Example: hide certain links on mobile */
+  .nav-item.hide-on-mobile {
+    display: none;
+  }
+}
+
+
+
+/* Remove any extra top margin accidentally set by browser or Bootstrap reset */
+.navbar-nav .nav-item.active {
+  margin-top: 0 !important;
+}
+
+
+body {
+  background-color: #eee;
+  
+}
+
+/* text styles for hero images */
+
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    
+    border-radius: 50%; /* Circular shape */
+    padding: 15px; /* Adds extra space */
+    width: 50px; /* Increase button size */
+    height: 50px;
+}
+
+
+
+.carousel-caption {
+
+   
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  width: auto;
+
+}
+
+.carousel-caption-overlay-1 {
+  background-color: rgba(186, 232, 212, 0.8);
+  
+  display: inline-block;
+  border-radius: 12px;
+  padding: 1.5rem 3rem;
+  max-width: 100%;
+  
+ 
+}
+
+.carousel-caption-overlay-3 {
+  background-color: rgba(184, 63, 54, 0.8);
+  
+  display: inline-block;
+  border-radius: 12px;
+  padding: 1.5rem 3rem;
+  max-width: 100%;
+  
+ 
+}
+
+
+
+.carousel-caption-overlay-1 h5,
+.carousel-caption-overlay-1 h6,
+.carousel-caption-overlay-3 h5 {
+
+ 
+  font-family: "Chewy", system-ui;
+  font-weight: 400;
+  font-style: normal;
+  color: #2c0619;
+  z-index: 3;
+}
+
+
+
+  @media (max-width: 767px) {
+    .mobile-specific {
+        height: 50vh !important; /* Apply only to mobile */
+    }
+}
+
+
+@media (min-width: 820px) and (max-width:1072px) {
+
+
+
+  .carousel-caption-overlay-1,
+  .carousel-caption-overlay-3 {
+    width: 100vw;          /* Make it nearly full width */
+    max-width: 800px;     /* Restrict max width */
+    height: auto;         /* Let content define height */
+    padding: 1.5rem;
+    
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    text-align: center;
+    position:relative;
+    left: -257px;
+    bottom: 50px;
+  }
+
+
+  .carousel-caption p {
+    font-size: 90%;
+    line-height: 1.3;
+    margin-bottom: 0.5rem;
+  }
+
+  .custom-btn {
+    font-size: 90%;
+    padding: 6px 14px;
+    margin-top: 0.5rem;
+  }
+
+}
+
+
+
+
+
+
+
+.carousel-caption-overlay-1 p {
+  font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 150;
+  font-style: normal;
+  font-size: large;
+  color: #2c0619;
+}
+
+
+.carousel-caption-overlay-3 p {
+
+ font-family: "Funnel Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 170;
+  font-style: normal;
+  font-size: large;
+  color: #f6f6f6;
+  padding-right: 0;
+  padding-left: 0;
+
+}
+
+.custom-btn {
+  background-color: rgb(19, 19, 19);  /* Custom pink */
+  color: rgb(247, 247, 247);
+  border: none;
+  padding: 0.6rem 1.4rem;
+  border-radius: 999px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.custom-btn:hover {
+  background-color: #e85d91;  /* Slightly darker on hover */
+  transform: scale(1.05);
+}
+
+/* mobile behavior for hero */
+
+
+@media (max-width: 768px) {
+    .carousel-item img {
+        width: 100%;
+        height: 75vh;
+        object-fit: cover;
+    }
+
+    .carousel-caption {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 90%;
+        
+       
+    }
+
+    .caption-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .carousel-caption h5,
+    .carousel-caption .display-3 {
+        font-size: 1.75rem;
+        line-height: 1.3;
+    }
+
+    .carousel-caption p {
+        font-size: 0.95rem;
+        margin-bottom: 1rem;
+    }
+
+    .custom-btn {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .carousel-caption-overlay-3 {
+
+        max-height: 90vh;
+        padding: 1rem;
+    }
+}
+
+
+/* Cupcake section styling */
+
+.cupcakes {
+  
+  max-width: 520px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  
+
+}
+
+.cupcakes-heading {
+  font-family: "Pattaya", sans-serif;
+  font-size: 2.75rem;
+  font-weight: 400s;
+  margin-bottom: 1rem;
+}
+
+.product-overview p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #0f2c2c; 
+  font-family: "Funnel Sans", sans-serif;
+}
+
+.viewCupcakes {
+
+    text-decoration: underline;
+    
+}
+
+.product-overview {
+  margin-top: 0;
+  padding-top: 2rem; /* Optional: just enough spacing to breathe */
+  background-image: url(assets/cupcake-banner.png);
+}
+
+/* cards styling */
+
+.card {
+    border: none; 
+    box-shadow: none; 
+    
+    
+}
+
+.card-img-top {
+    border-radius: 12px; /* Adjust the value as needed */
+    box-shadow:#0f2c2c;
+}
+
+.card-text {
+  font-size: 14px;
+  line-height: 1.3;
+  color: #0f2c2c; 
+  font-family: "Funnel Sans", sans-ser
+
+}
+
+/*---------------------------------------------------------------------------Mobile only (View more products)------------------------------------------------------------*/
+
+
+
+ .viewMoreProducts {
+    
+    padding: 0;
+    margin-bottom: 0;
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: #0f2c2c; 
+    font-family: "Funnel Sans", sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness:10px;/* Make underline thicker */
+    text-decoration-color: #851a3d;
+    
+
+    @media (min-width: 991.98px) {
+  
+    display: none;
+
+    }
+}
+
+
+
+/*carousel*/
+
+
+
+a{
+    color: inherit;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul > * + *{
+    margin-top: 10px;
+}
+
+li{
+    display: block;
+}
+
+li a.active{
+    font-weight: bold;
+}
+
+.slider{
+  width: 100%;           /* or 100vw */
+  max-width: none;       /* ← kill the cap                           */
+  background: teal;
+  color:#fff;
+  display:grid;
+  grid-template-columns: 35% 65%;
+  margin-top: 35px;
+
+}
+
+/* Hide the slider below 992px (lg breakpoint) */
+@media (max-width: 991.98px) {
+  .slider {
+    display: none;
+  }
+}
+
+.slider .content_container{
+    padding: 40px;
+    background-color: #e3aec0;
+}
+
+.content_container p {
+  
+    font-size: 20px;
+    margin-top: 0;
+  
+}
+
+.slide_navigation a {
+    display: inline-block;
+    width: 230px;
+    padding: 0.5rem 1rem;
+    background-color: #6e082a;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    
+    font-size: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.slide_navigation a:hover {
+    background-color: #920b3a;
+    transform: scale(1.05);
+}
+
+.slide_navigation a.active {
+    background-color: #c91d5d;
+}
+
+
+.slider-heading {
+
+    font-family: "Pattaya", sans-serif;
+    font-size: 68px;
+    color: #851a3d;
+    margin-top: 10px;
+}
+
+.slider .slides{
+     height: 100vh; /* takes up full viewport height */
+  overflow-y: auto;
+  scroll-snap-type: y mandatory;  /* optional: smooth snap scrolling */
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column; /* stack vertically */
+  
+}
+
+.slider .slides::-webkit-scrollbar{
+    display: none;
+}
+
+.slider .slides .slide {
+    height: 100vh; /* Full viewport height */
+    flex-shrink: 0; /* Prevent shrinking */
+    scroll-snap-align: start; /* Optional smooth snapping */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Ensure text is visible */
+    background-size: cover; /* Make sure images fill the slide */
+    background-repeat: no-repeat;
+    background-position: center; /* Center the image */
+}
+
+.slider .slides .slide:nth-child(1) {
+    background-image: url('assets/birthday.png');
+     background-size: cover;
+    background-position: center center;
+}
+
+.slider .slides .slide:nth-child(2) {
+    background-image: url('assets/graduation.png');
+}
+
+.slider .slides .slide:nth-child(3) {
+    background-image: url('assets/wedding.png');
+}
+
+
+.content_container .slide_navigation li a {
+
+    text-decoration: none;
+}
+
+
+.slide {
+
+    position: relative;
+}
+
+.slides .slide .inner_content1 {
+
+    background-color: rgba(241, 49, 148, 0.75);
+    padding: 0 6rem;  
+    border-radius: 8px;
+    max-width: 90%;
+  margin: auto;
+  position: absolute;
+  bottom: 5%; /* Pushes it to the bottom */
+  left: 5%;
+  right: 5%;
+
+}
+
+.slides .slide .inner_content2 {
+
+     background-color: rgba(184, 155, 28, 0.8);
+    padding: 0 6rem;  
+    border-radius: 8px;
+    max-width: 90%;
+  margin: auto;
+  position: absolute;
+  bottom: 5%; /* Pushes it to the bottom */
+  left: 5%;
+  right: 5%;
+
+}
+
+.slides .slide .inner_content3 {
+
+    background-color: rgba(92, 72, 83, 0.8);
+    padding: 0 6rem;  
+    border-radius: 8px;
+    max-width: 90%;
+  margin: auto;
+  position: absolute;
+  bottom: 5%; /* Pushes it to the bottom */
+  left: 5%;
+  right: 5%;
+
+}
+
+.slides .slide p {
+
+    font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-style: regular;
+  font-size: larger;
+  padding-top: 12px;
+}
+
+
+/*----------------------------------------------------------------mobile slider behavior---------------------------------------------------------------------------------*/
+
+
+/* Hide the slider below 992px (lg breakpoint) */
+@media (min-width: 991.98px) {
+  .carousel-container {
+    display: none;
+  }
+
+}
+
+
+.carousel-container {
+      max-width: 100%;
+      overflow: hidden;
+      background-color: #e3aec0;
+      margin-top: 35px;
+    }
+
+    .carousel-nav {
+      display: flex;
+      justify-content: center;
+      gap: 1rem;
+      background: #6e082a;
+      padding: 1rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      background-color: #e3aec0;
+    }
+
+    .carousel-nav a {
+      text-decoration: none;
+      padding: 8px 16px;
+      background: #ae4467;
+      border-radius: 4px;
+      color: white;
+      font-weight: bold;
+    }
+
+    .carousel-nav a.active {
+      background: #ff69b4;
+      color: white;
+    }
+
+    .carousel-track {
+      display: flex;
+      scroll-behavior: smooth;
+      overflow-x: scroll;
+      scroll-snap-type: x mandatory;
+    }
+
+    .mobile-slide img {
+  width: 100vw;           /* Responsive width, fills most of viewport width */
+  height: 100vw;          /* Makes the image square by matching width */
+  object-fit: cover;     /* Ensures image covers the box without distortion */
+    /* Optional: Rounded corners */
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow */
+}
+
+
+    .mobile-slide {
+      max-width: 100%;
+      scroll-snap-align: start;
+      flex-shrink: 0;
+      aspect-ratio: 1 / 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 2rem;
+      
+     
+    }
+
+    .image-text {
+
+        position: relative;
+        
+    }
+
+    .carousel-track .mobile-slide p {
+    position: absolute;
+    top: 50%;  /* Moves the text down */
+    left: 50%; /* Centers the text */
+    transform: translate(-50%, -50%); /* Perfect centering */
+    color: white; /* Ensures readability */
+    font-family: "Albert Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200px;
+    font-style: regular;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.55);
+} 
+
+
+
+
+/*----------------------------------------------------------------Second Cupcake banner---------------------------------------------------------------------------------*/
+
+
+
+.cupcake-banner-2 {
+
+    background-image: url(assets/cupcake-banner-2.png);
+    margin-top: 0;
+    height: 262px;
+   
+}
+
+
+/* gallery styles */
+
+.img-border {
+  --s: 20px;  /* control the size of the wave */
+  --w: 300px; /* preferred image width */
+  
+  width: round(var(--w),4*var(--s)); 
+  aspect-ratio: 1;
+  padding: var(--s);
+  border: var(--s) solid #0000;
+  box-sizing: border-box;
+  background: rgba(186, 232, 212, 0.8) border-box;
+  border-radius: calc(3.5*var(--s)); 
+  mask: 
+    radial-gradient(calc(sqrt(2)*var(--s)),#000 calc(100% - 1px),#0000),
+    conic-gradient(#000 0 0) content-box,
+    radial-gradient(calc(sqrt(2)*var(--s)),#0000 100%,#000 calc(100% + 1px)) 
+     var(--s) var(--s) padding-box;
+  mask-size: calc(var(--s)*4) calc(var(--s)*4);
+}
+
+
+/*----------------------------------------------------------------------------Newsletter-------------------------------------------------------------------------------*/
+
+.newsletter-background {
+
+background-image: url(assets/newsletter-background.png);
+
+}
+
+.newsletter-section {
+    background-color: #f8f9fa;
+}
+
+.newsletter-section h2 {
+    color: #333;
+}
+
+.newsletter-section .lead {
+    color: #6c757d;
+}
+
+.newsletter-form .form-control {
+    border: 2px solid #ee15bc;
+    border-radius: 30px 0 0 30px;
+}
+
+.newsletter-form .btn-primary {
+    border-radius: 0 30px 30px 0;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: #ee15bc;
+    border-color: #ee15bc;
+}
+
+.newsletter-form .btn-primary:hover {
+    background-color: #860969;
+    border-color: #860969;
+}
+
+.newsletter-form .form-check-label {
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.newsletter-form .form-check-label a {
+    color: #0056b3;
+}
+
+.newsletter-form .form-check-label a:hover {
+    text-decoration: underline !important;
+}
+
+
+/*-------------------------------------------------------------------------------Footer------------------------------------------------------------------------------------*/
+
+.modern-footer {
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+    position: relative;
+    overflow: hidden;
+}
+
+.modern-footer::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(108, 92, 231, 0.1) 0%, rgba(0, 0, 0, 0) 100%);
+    z-index: 1;
+}
+
+.footer-content {
+    position: relative;
+    z-index: 2;
+}
+
+.footer-logo {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #2d3436;
+    text-decoration: none;
+}
+
+.footer-title {
+    color: #2d3436;
+    font-weight: 600;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    position: relative;
+    display: inline-block;
+}
+
+.footer-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, #ee15bc, transparent);
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.contact-info i {
+    color: #6c5ce7;
+    width: 20px;
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2d3436;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.social-icon:hover {
+    transform: translateY(-3px);
+    color: #ee15bc;
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.2);
+}
+
+.quick-links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    padding: 0;
+    list-style: none;
+}
+
+.quick-links a {
+    color: #2d3436;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.quick-links a:hover {
+    color: #ee15bc;
+    transform: translateX(5px);
+}
+
+.quick-links a::before {
+    content: '→';
+    opacity: 0;
+    transition: all 0.3s ease;
+}
+
+.quick-links a:hover::before {
+    opacity: 1;
+}
+
+.newsletter-input {
+    border: none;
+    padding: 0.8rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn-subscribe {
+    background: linear-gradient(45deg, #ee15bc, #d4a5c8);
+    border: none;
+    box-shadow: 0 2px 10px rgba(108, 92, 231, 0.2);
+    padding: 0.8rem 2rem;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.btn-subscribe:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.3);
+}
+
+.footer-bottom {
+    background: white;
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.footer-bottom p {
+    margin: 0;
+    color: #6c757d;
+}
+
+.footer-bottom a {
+    color: #6c5ce7;
+    text-decoration: none;
+}
+
+.footer-bottom a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+    .quick-links {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+/*----------------------------------------------------------------------------------Order Page stying--------------------------------------------------------------------*/
+
+.product-image {
+            max-height: 400px;
+            object-fit: cover;
+}
+
+.thumbnail {
+
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+            
+    cursor: pointer;
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail-row {
+  gap: 6px; 
+}
+
+
+.thumbnail:hover, .thumbnail.active {
+            opacity: 1;
+}
+
+.order-page {
+
+  margin-top: 100px;
+}
+
+#mainImage {
+
+  width: 500px;
+}
+
+.price-info {
+    display: inline-block;
+    width: 150px;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ee15bc; /* Updated line */
+    
+    text-decoration: none;
+    border-radius: 6px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.price-info:hover {
+
+  background-color: #ee15bc;
+}
+
+
+.bi-star-fill, 
+.bi-star-half {
+
+  color: #ee15bc !important;
+}
+
+.checkout-background {
+
+  background-color: #ee15bc;
+}
+
+.checkout-background:hover {
+
+  background-color: #f6ceec;
+}
+
+.wishlist-background {
+
+background-color: black;
+color: #FFFFFF;
+}
+
+.wishlist-background:hover {
+
+  background-color: #f6ceec;
+}
+
+.order-page h5, p {
+
+  font-family: "Funnel Sans", sans-serif;
+}
